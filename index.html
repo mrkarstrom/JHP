@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="topnav" id="myTopnav">
+    <nav>
       <a href="#"><img src="assets/img/Jimmy-Hakola-black-low-res.png" alt="" /></a>
-      <ul>
+      <ul id="topNav">
         <li><a href="#start" class="active">Start</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
         <li><a href="https://epicnature.se">Epic Nature</a></li>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <li class="icon"><a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a></li>
       </ul>
     </nav>
     <main>
@@ -37,5 +37,7 @@
       <div class="copyright">Copyright &copy2022</div>
       <div class="yesweb"><a href="https://yesweb.se"></a>Made by yesweb.se</div>
     </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
