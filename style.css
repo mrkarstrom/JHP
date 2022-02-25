@@ -74,20 +74,22 @@ nav img {
 }
 
 main {
-  height: 100vh;
+  height: 100%;
   /* border: 1px solid rgb(0, 26, 255); */
-  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 section {
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0px;
+  margin-top: 120px;
+  margin-bottom: 90px;
   max-width: 1200px;
 }
 
