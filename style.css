@@ -52,6 +52,7 @@ nav {
 
 #topNav .icon {
   display: none;
+  padding-right: 50px;
 }
 
 nav img {
@@ -171,8 +172,17 @@ footer ul li a {
     width: 100%;
   }
 
+  section img {
+    width: 80vw;
+  }
+
   #topNav li {
     display: none;
+  }
+
+  section {
+    width: 90vw;
+    padding: 5px;
   }
 }
 
