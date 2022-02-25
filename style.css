@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,400&family=Satisfy&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  background-color: white;
+  display: inline-block;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  position: fixed;
+  height: 120px;
+  left: 0;
+  right: 0;
+  top: 0;
+  border: 2px solid rgb(255, 166, 0);
+}
+
+nav ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgb(255, 0, 200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  height: 120px;
+}
+
+nav ul li {
+  padding: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav img {
+  width: 200px;
+  border: 1px solid rgb(255, 251, 0);
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+main {
+  height: 100vh;
+  border: 1px solid rgb(0, 26, 255);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin-top: 120px;
+  margin-bottom: 90px;
+  border: 1px solid rgb(0, 255, 21);
+}
+
+section {
+  height: auto;
+  padding: 0px;
+  max-width: 1200px;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 30px;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+.copyright {
+  position: relative;
+  bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  color: darkgrey;
+}
+
+.yesweb {
+  color: darkgray;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  position: relative;
+  bottom: 15px;
+}
