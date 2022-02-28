@@ -1,10 +1,14 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  const x = document.getElementById("myTopnav");
-  
-  x.forEach(link in links){
-    
-    link.classList.toggle("active");
-  } 
-    
+const topNav = document.getElementById("topNav");
+const dropDown = document.getElementById("dropDown");
+
+topNav.addEventListener("click", toggleFunction);
+
+function toggleFunction() {
+  if (topNav.style.display === "none") {
+    topNav.style.display = "block";
+    dropDown.style.display = "none";
+  } else {
+    topNav.style.display = "none";
+    dropDown.style.display = "block";
+  }
 }

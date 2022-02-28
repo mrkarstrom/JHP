@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,400&family=Satisfy&display=swap");
 
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 body {
@@ -163,6 +163,13 @@ footer ul li a {
 .yesweb a {
   text-decoration: none;
   color: #ccc;
+}
+
+#dropDown {
+  display: none;
+  width: 100%;
+  background: #e7e7e7;
+  margin: 0 15px;
 }
 
 @media screen and (max-width: 800px) {
