@@ -52,6 +52,7 @@ nav {
 
 #topNav .icon {
   display: none;
+  padding-right: 50px;
 }
 
 nav img {
@@ -139,23 +140,29 @@ footer ul li {
 }
 
 footer ul li a {
+  color: black;
   text-decoration: none;
 }
 
 .copyright {
   position: relative;
-  bottom: 15px;
+  bottom: 20px;
   font-family: "Roboto", sans-serif;
   font-size: small;
-  color: darkgrey;
+  color: #333;
 }
 
 .yesweb {
-  color: darkgray;
+  color: #ddd;
   font-family: "Roboto", sans-serif;
   font-size: small;
   position: relative;
-  bottom: 15px;
+  bottom: 16px;
+}
+
+.yesweb a {
+  text-decoration: none;
+  color: #ccc;
 }
 
 @media screen and (max-width: 800px) {
@@ -171,8 +178,17 @@ footer ul li a {
     width: 100%;
   }
 
+  section img {
+    width: 80vw;
+  }
+
   #topNav li {
     display: none;
+  }
+
+  section {
+    width: 90vw;
+    padding: 5px;
   }
 }
 
